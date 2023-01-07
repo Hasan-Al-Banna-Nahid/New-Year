@@ -1,0 +1,258 @@
+/* Universal Selector Design Starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Universal Selector Design End */
+
+/* Header Section Design Starts */
+.header-section{
+    background-image: url('./images/banner/banner3.png');
+    background-size: cover;
+    height: 700px;
+    position: relative;
+   
+}
+/* Some Design Of Main Section Section Starts  */
+main>section{
+    margin-bottom: 100px;
+}
+/* Some Design Of Main Section Section End  */
+
+.header-info{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 14.5%;
+    
+}
+ .header-info>.header-title,.header-description{
+    margin:10px 20px 20px 0;
+    
+    
+}
+.header-description{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.665);
+    
+    
+    
+}
+.header-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.primary-button{
+    margin-left: 56%;
+    border: none;
+    border-radius: 5px;
+    color: rgba(0, 0, 255, 0.75);
+    font-weight: 760;
+    font-size: 14px;
+    padding: 15px 20px;
+}
+#header-title-modifier{
+    margin-left: 49%;
+} 
+/* Header Section Design End */
+
+/* previous-year-destruction Section design Starts */
+.previous-year-destruction{
+    margin-top: 100px;
+}
+.destruction-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    
+    
+}
+.bad-experience-title{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 150px;
+    margin-bottom: 5px;
+}
+.bad-experience-description{
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 20px;
+    color: rgba(128, 128, 128, 0.982);
+}
+#person-image{
+    height: 500px;
+}
+.bad-habit-list li{
+    list-style-type: none;
+    color: rgba(128, 128, 128, 0.982);
+    line-height: 25px;
+    font-size: 14px;
+}
+/* previous-year-destruction Section design End */
+
+/* Learning Plan Section Design Starts  */
+#learning-plan-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin: 0 0 35px 0;
+}
+.learning-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+}
+.learning-categories h3,h4{
+    text-align: center;
+    padding-top: 15px ;
+   
+}
+.learning-categories h3{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.learning-categories h4{
+    font-size: 18px;
+    font-weight: bolder;
+    color: grey;
+    padding: 10px 25px;
+}
+
+.common-icon{
+    height: 60px;
+    margin-left: 3rem;
+}
+/* Learning Plan Section Design End  */
+
+/* Some Design for gradient-image-info Section Starts*/
+.gradient-image-info{
+    width: 70%;
+    height: 210px;
+    background-image: url('./images/gradient1.png'),url('./images/watch.png');
+    background-size: cover;
+    background-blend-mode:normal;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 8px;
+}
+.gradient-image-info h2{
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    
+}
+.second-button{
+    position: absolute;
+    top: 62%;
+    left: 5%;
+    border: none;
+    border-radius: 5px;
+    color: rgba(0, 0, 255, 0.75);
+    font-weight: 760;
+    font-size: 14px;
+    width: 110px;
+    padding: 15px 20px;
+}
+/* Some Design for gradient-image-info Section End*/
+
+/* Footer Section Design Starts */
+.footer{
+    background-color: rgba(0, 0, 0, 0.902);
+    width: 100%;
+    height: 430px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    position: relative;
+}
+.left-footer{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 5%;
+    left: 10%;
+
+}
+.left-footer p,a{
+    color: whitesmoke;
+}
+.left-footer p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.left-footer a{
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin: 12px 0 12px 0;
+    
+}
+.left-footer h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.right-footer{
+    position: absolute;
+    margin-top: 30%;
+    right: 15%;
+}
+
+.social-icon>img{
+    margin: 10px 7px;
+    
+
+}
+.common-social-icon{
+    height: 35px;
+
+}
+
+.right-footer h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+}
+.right-footer input[type="email"]{
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 45px;
+    width: 230px;
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, 0.221);
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.628);
+    font-weight: 500;
+}
+#submit-button{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 47, 255, 0.543);
+    color: white;
+    font-weight: 760;
+    font-size: 14px;
+    height: 45px;
+    width: 125px;
+    margin-top: 10px;
+    padding: 15px 20px;
+}
+/* Footer Section Design End */
