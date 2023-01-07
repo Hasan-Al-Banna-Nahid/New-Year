@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans';
 }
 /* Universal Selector Design End */
 
@@ -32,25 +33,27 @@ main>section{
     
 }
 .header-description{
-    font-size: 14px;
-    line-height: 20px;
-    color: rgba(255, 255, 255, 0.665);
-    
-    
-    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: right;   
 }
 .header-title{
-    font-size: 48px;
-    font-weight: bold;
-    color: white;
+    font-size: 65px;
+    text-align: right;
+    font-weight: 700;
+    color: #FFFFFF;
 }
 .primary-button{
-    margin-left: 56%;
+    margin-left: 65%;
+    height: 64px;
     border: none;
     border-radius: 5px;
-    color: rgba(0, 0, 255, 0.75);
-    font-weight: 760;
-    font-size: 14px;
+    background-color: #FFFFFF;
+    color:#005FAC;
+    font-weight: 600;
+    font-size: 20px;
     padding: 15px 20px;
 }
 #header-title-modifier{
@@ -71,35 +74,39 @@ main>section{
     
 }
 .bad-experience-title{
-    font-size: 30px;
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
     margin-top: 150px;
     margin-bottom: 5px;
 }
 .bad-experience-description{
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px 0;
     line-height: 20px;
-    color: rgba(128, 128, 128, 0.982);
+    font-weight: 400;
+    color: #444343;
+    
 }
 #person-image{
     height: 500px;
 }
 .bad-habit-list li{
     list-style-type: none;
-    color: rgba(128, 128, 128, 0.982);
-    line-height: 25px;
-    font-size: 14px;
+    color: #444343;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    
 }
 /* previous-year-destruction Section design End */
 
 /* Learning Plan Section Design Starts  */
 #learning-plan-title{
     text-align: center;
-    font-size: 30px;
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
     margin: 0 0 35px 0;
 }
 .learning-categories{
@@ -115,26 +122,27 @@ main>section{
    
 }
 .learning-categories h3{
-    font-size: 22px;
-    font-weight: bolder;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
 }
 .learning-categories h4{
-    font-size: 18px;
-    font-weight: bolder;
-    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+    color: #737272;
     padding: 10px 25px;
 }
 
 .common-icon{
     height: 60px;
-    margin-left: 3rem;
+    margin-left: 4.3rem;
 }
 /* Learning Plan Section Design End  */
 
 /* Some Design for gradient-image-info Section Starts*/
 .gradient-image-info{
     width: 70%;
-    height: 210px;
+    height: 300px;
     background-image: url('./images/gradient1.png'),url('./images/watch.png');
     background-size: cover;
     background-blend-mode:normal;
@@ -146,9 +154,9 @@ main>section{
     position: absolute;
     top: 22%;
     left: 5%;
-    font-size: 32px;
-    font-weight: bolder;
-    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
     
 }
 .second-button{
@@ -157,17 +165,19 @@ main>section{
     left: 5%;
     border: none;
     border-radius: 5px;
-    color: rgba(0, 0, 255, 0.75);
-    font-weight: 760;
-    font-size: 14px;
-    width: 110px;
+    background-color: #FFFFFF;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
     padding: 15px 20px;
 }
 /* Some Design for gradient-image-info Section End*/
 
 /* Footer Section Design Starts */
 .footer{
-    background-color: rgba(0, 0, 0, 0.902);
+    background-color:  #151414;;
     width: 100%;
     height: 430px;
 }
@@ -186,25 +196,28 @@ main>section{
 
 }
 .left-footer p,a{
-    color: whitesmoke;
+    color: #FFFFFF;
 }
 .left-footer p{
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
-    line-height: 20px;
+    font-weight: 400;
+    line-height: 25px;
 }
 .left-footer a{
     text-decoration: none;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
     margin: 12px 0 12px 0;
     
 }
 .left-footer h3{
-    font-size: 30px;
+    font-size: 45px;
     margin-bottom: 20px;
-    font-weight: bolder;
-    color: white;
+    font-weight: 700;
+    color: #F8F8F8;
 }
 .right-footer{
     position: absolute;
@@ -218,41 +231,43 @@ main>section{
 
 }
 .common-social-icon{
-    height: 35px;
+    height: 40px;
 
 }
 
 .right-footer h4{
     font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: bolder;
-    color: white;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
     text-align: left;
 }
 .right-footer input[type="email"]{
     border: none;
     border: 1px solid white;
     border-radius: 5px;
-    height: 45px;
-    width: 230px;
+    height: 55px;
+    width: 280px;
     padding: 10px 25px;
-    background-color: rgba(0, 0, 0, 0.221);
+    background-color:  #151414;;
 }
 ::placeholder{
-    color: rgba(255, 255, 255, 0.628);
+    color: #F8F8F8;
     font-weight: 500;
+    font-size: 16px;
 }
 #submit-button{
     display: block;
     border: none;
-    border-radius: 5px;
-    background-color: rgba(0, 47, 255, 0.543);
-    color: white;
-    font-weight: 760;
-    font-size: 14px;
-    height: 45px;
-    width: 125px;
+    border-radius: 8px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    height: 60px;
+    width: 155px;
     margin-top: 10px;
+    font-family: 'inter';
     padding: 15px 20px;
 }
 /* Footer Section Design End */
